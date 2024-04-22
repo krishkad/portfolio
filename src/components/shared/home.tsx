@@ -10,7 +10,7 @@ const Hero = () => {
                         <div className="w-20 h-20 relative">
                             <Image src={'/img/krrishkad.jpg'} fill sizes='height:100%, width:100%' className='object-cover rounded-full' alt='img' />
                         </div>
-                        <p className="text-md font-semibold">I'm Krrish Kadam</p>
+                        <p className="text-md font-semibold">I&apos;m Krrish Kadam</p>
                     </div>
                     <h2 className='text-3xl font-bold text-center'>Building digital
                         <br />products, brands, and
