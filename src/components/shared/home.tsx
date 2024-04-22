@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import PicDialog from './pic-dialog'
 
 const Hero = () => {
     return (
@@ -7,9 +8,7 @@ const Hero = () => {
             <div className="max-w-wrapper h-full flex justify-center pt-20 md:pt-36">
                 <div className="flex flex-col gap-4">
                     <div className="flex flex-col items-center gap-3">
-                        <div className="w-20 h-20 relative">
-                            <Image src={'/img/krrishkad.jpg'} fill sizes='height:100%, width:100%' className='object-cover rounded-full' alt='img' />
-                        </div>
+                        <PicDialog />
                         <p className="text-md font-semibold">I&apos;m Krrish Kadam</p>
                     </div>
                     <h2 className='text-3xl font-bold text-center'>Building digital
