@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 const Navbar = () => {
@@ -5,7 +6,9 @@ const Navbar = () => {
         <nav className="w-full">
             <div className="max-w-wrapper h-16 flex items-center justify-between">
                 <div className="">
-                    <h2 className="text-xl font-extrabold">krrishkad</h2>
+                    <Link href={'/'}>
+                        <h2 className="text-xl font-extrabold">krrishkad</h2>
+                    </Link>
                 </div>
             </div>
         </nav>
