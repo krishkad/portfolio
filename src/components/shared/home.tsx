@@ -5,7 +5,7 @@ const Hero = () => {
     
     return (
         <div className='w-full h-[calc(100vh-64px)]'>
-            <div className="max-w-wrapper h-full flex justify-center items-center pb-16">
+            <div className="max-w-wrapper h-full flex justify-center max-sm:pt-20 sm:items-center pb-16">
                 <div className="flex flex-col gap-4">
                     <div className="flex flex-col items-center gap-3">
                         <PicDialog />
