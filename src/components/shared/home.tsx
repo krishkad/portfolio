@@ -5,7 +5,7 @@ import PicDialog from './pic-dialog'
 const Hero = () => {
     return (
         <div className='w-full h-[calc(100vh-64px)]'>
-            <div className="max-w-wrapper h-full flex justify-center pt-20 md:pt-36">
+            <div className="max-w-wrapper h-full flex justify-center pt-20 xl:pt-36">
                 <div className="flex flex-col gap-4">
                     <div className="flex flex-col items-center gap-3">
                         <PicDialog />
